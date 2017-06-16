@@ -1,0 +1,18 @@
+server: 
+  port: 8081
+
+#Spring Cloud Config配置信息
+spring:
+  application:
+    name: pentaQ_server
+  cloud: 
+    config: 
+      uri: http://${configServer.ip}:${configServer.port}
+      name: pentaQ_server
+      profile: ${app.profile:dev}
+
+#Eureka 配置信息
+eureka: 
+  client:
+    serviceUrl: 
+      defaultZone: ${eureka.defaultZone}

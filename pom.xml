@@ -26,5 +26,9 @@
   <modules>
     <module>pentaQ-config-server</module>
     <module>pentaQ-eureka-server</module>
+    <module>pentaQ-model</module>
+    <module>pentaQ-web</module>
+    <module>pentaQ-server</module>
+    <module>pentaQ-common</module>
   </modules>
 </project>
