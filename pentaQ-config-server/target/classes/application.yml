@@ -1,0 +1,12 @@
+server: 
+  port: 8888 #启动端口
+
+spring: 
+  application:
+    name: pentaQ-config-server #配置服务名称
+  cloud: 
+    config: 
+      server: 
+        git: 
+          uri: https://github.com/S1ow/cloud-demo.git #获取配置的git地址
+          searchPaths: pentaQ-remote-config #搜索的配置路径
