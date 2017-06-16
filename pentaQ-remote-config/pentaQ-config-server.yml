@@ -1,0 +1,5 @@
+config:
+  port: 8888
+  name: pentaQ-config-server
+  gitUrl: https://github.com/S1ow/pentaQ.git
+    
