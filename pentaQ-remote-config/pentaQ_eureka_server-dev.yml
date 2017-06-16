@@ -12,7 +12,7 @@ app:
 #eureka服务配置
 eureka: 
   instance: 
-    hostname: 127.0.0.1 
+    hostname: localhost
     client: 
       #是否想eureka注册服务
       registerWithEureka: false 
