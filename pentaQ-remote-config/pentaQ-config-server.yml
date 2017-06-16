@@ -1,5 +1,6 @@
-config:
+#配置服务的公共配置
+
+config: 
   port: 8888
   name: pentaQ-config-server
   gitUrl: https://github.com/S1ow/pentaQ.git
-    
