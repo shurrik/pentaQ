@@ -8,6 +8,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 @EnableConfigServer //开启配置服务
 public class PentaQConfigServer {
 
+	//还用spring boot的形式启动config server
 	public static void main(String[] args) {
 		SpringApplication.run(PentaQConfigServer.class, args);
 	}

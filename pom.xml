@@ -25,5 +25,6 @@
   </dependencies>
   <modules>
     <module>pentaQ-config-server</module>
+    <module>pentaQ-eureka-server</module>
   </modules>
 </project>

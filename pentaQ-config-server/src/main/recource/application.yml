@@ -3,7 +3,7 @@ server:
 
 spring: 
   application:
-    name: pentaQ-config-server #配置服务名称
+    name: pentaQ_config_server #配置服务名称
   cloud: 
     config: 
       server: 
