@@ -4,12 +4,7 @@ configServer:
   port: 8888
   name: pentaQ_config_server
   gitUrl: https://github.com/S1ow/pentaQ.git
-
-#pentaQ-eureka-server服务配置  
+  
+#pentaQ_server服务配置  
 app: 
   profile: dev
-  
-#eureka服务注册中心配置
-eureka: 
-    defaultZone:  http://127.0.0.1:8761/eureka/
-  
