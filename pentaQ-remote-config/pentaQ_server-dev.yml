@@ -8,3 +8,15 @@ configServer:
 #pentaQ_server服务配置  
 app: 
   profile: dev
+  
+#datasource config
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://192.168.99.100:3306/blog?zeroDateTimeBehavior=convertToNull&amp;useUnicode=true&amp;characterEncoding=utf-8
+  username: root
+  password: 123456
+
+#mybatis config
+mybatis:
+  typeAliasesPackage: com.pentaQ.service.model
+  mapperLocations: classpath:mapper/*.xml
