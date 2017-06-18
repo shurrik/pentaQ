@@ -4,11 +4,11 @@ server:
 #Spring Cloud Config配置信息
 spring:
   application:
-    name: pentaQ_eureka_server
+    name: pentaQEurekaServer
   cloud: 
     config: 
       uri: http://${configServer.ip}:${configServer.port}
-      name: pentaQ_eureka_server
+      name: pentaQEurekaServer
       profile: ${app.profile:dev}
 
 #Eureka 配置信息
