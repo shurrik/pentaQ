@@ -15,7 +15,7 @@ eureka:
     hostname: localhost
     client: 
       #是否想eureka注册服务
-      registerWithEureka: false 
+      registerWithEureka: false
       #是否从eureka发现服务
       fetchRegistry:  false
     healthcheck:  
