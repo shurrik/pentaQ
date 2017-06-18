@@ -22,4 +22,4 @@ eureka:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/ #serviceUrl指向与本地实例相同的主机
       #defaultZone: http://user:password@localhost:8761/eureka #带有安全验证的服务中心
     healthcheck: 
-      enabled: ${eureka.client.healthcheck.enabled} #默认是true，Eureka的监控检查，这个配置需要配置在application中，配置bootstrap中可能会导致一系列的问题
+      enabled: true #默认是true，Eureka的监控检查，这个配置需要配置在application中，配置bootstrap中可能会导致一系列的问题

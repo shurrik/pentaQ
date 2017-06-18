@@ -1,13 +1,14 @@
 #配置服务的公共配置
 configServer: 
-  ip: 127.0.0.1
-  port: 8888
+  url: http://127.0.0.1:8888
   name: pentaQ_config_server
-  gitUrl: https://github.com/S1ow/pentaQ.git
   
 #pentaQ_server服务配置  
 app: 
   profile: dev
+  
+eureka: 
+  defaultZone: http://localhost:8761/eureka/  
   
 #datasource config
 jdbc:

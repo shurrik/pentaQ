@@ -7,16 +7,14 @@
     <artifactId>pentaQ</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  
   <groupId>pentaQ-model</groupId>
   <artifactId>pentaQ-model</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
   <name>pentaQ-model</name>
   <url>http://maven.apache.org</url>
-  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -25,5 +23,4 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  
 </project>
