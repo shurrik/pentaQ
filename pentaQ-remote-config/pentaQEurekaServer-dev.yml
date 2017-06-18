@@ -13,11 +13,11 @@ app:
 eureka: 
   instance: 
     hostname: localhost
-    client: 
-      #是否想eureka注册服务
-      registerWithEureka: false
-      #是否从eureka发现服务
-      fetchRegistry:  false
+  client: 
+    #是否向eureka注册服务
+    registerWithEureka: false
+    #是否从eureka发现服务
+    fetchRegistry:  false
     healthcheck:  
       #默认是true，Eureka的监控检查，这个配置需要配置在application中，配置bootstrap中可能会导致一系列的问题
       enabled: true 
